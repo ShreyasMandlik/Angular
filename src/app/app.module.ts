@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import {HttpClientModule} from "@angular/common/http";
+import { PokemonTableComponent } from './pokemon-table/pokemon-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    PokemonTableComponent
   ],
   imports: [
     BrowserModule,
