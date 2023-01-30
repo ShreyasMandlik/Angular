@@ -25,7 +25,7 @@
             </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label" >URL</label>
-              <input type="text" class="form-control" id="exampleInputEmail1" formControlName="imageUrl" placeholder="Pokemon Name">
+              <input type="text" class="form-control" id="exampleInputEmail1" formControlName="imageUrl"  npm  placeholder="Pokemon Name">
             </div>
           </form>
         </div>
@@ -35,5 +35,26 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">name</th>
+          <th scope="col">url</th>
+          <th scope="col">Speciality</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pokemon of pokemons">
+          <th scope="row">{{pokemon.id}}</th>
+          <td>{{pokemon.name}}</td>
+          <td> <img src="{{pokemon.imageUrl}}" style="width: 50xp; height: 50px;"  alt="">  </td>
+          <td>{{pokemon.speciality}}</td>
+        </tr> 
+      </tbody>
+    </table>
   </div>
 </div>
