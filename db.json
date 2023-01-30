@@ -1,23 +1,64 @@
 {
   "Pokemon": [
     {
-      "id":1,
+      "id": 1,
       "name": "bulbasur",
       "speciality": "grass",
       "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
     },
     {
-      "id":2,
+      "id": 2,
       "name": "Ivysaur",
       "speciality": "grass",
       "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png"
     },
     {
-      "id":3,
+      "id": 3,
       "name": "Venusaur",
       "speciality": "grass",
       "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png"
+    },
+    {
+      "name": "Abc",
+      "speciality": "pi",
+      "imageUrl": "hhtp",
+      "id": 4
+    },
+    {
+      "name": "Abc",
+      "speciality": "pi",
+      "imageUrl": "hhtp",
+      "id": 5
+    },
+    {
+      "name": "Abc",
+      "speciality": "pi",
+      "imageUrl": "hhtp",
+      "id": 6
+    },
+    {
+      "name": "Abc",
+      "speciality": "pi",
+      "imageUrl": "hhtp",
+      "id": 7
+    },
+    {
+      "name": "Abc",
+      "speciality": "pi",
+      "imageUrl": "hhtp",
+      "id": 8
+    },
+    {
+      "name": "Abc",
+      "speciality": "pi",
+      "imageUrl": "hhtp",
+      "id": 9
+    },
+    {
+      "name": "Abc",
+      "speciality": "pi",
+      "imageUrl": "hhtp",
+      "id": 10
     }
   ]
-   
 }

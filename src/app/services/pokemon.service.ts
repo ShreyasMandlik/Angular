@@ -12,4 +12,8 @@ export class PokemonService {
   public getPokemons() {
     return this.http.get<PokemonModel[]>(this.baseUrl);
   }
+
+  savePokemon(pokemon:PokemonModel){
+    return this.http.post<PokemonModel[]>(this.baseUrl,pokemon);
+  }
 }
